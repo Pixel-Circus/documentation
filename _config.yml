@@ -1,5 +1,7 @@
 # https://nicolas-van.github.io/easy-markdown-to-github-pages/
 
+title: Documentation Pixel Circus
+description: "Documentation des processus et des outils utilisés par l'agence"
 plugins:
   - jekyll-relative-links
 relative_links:
