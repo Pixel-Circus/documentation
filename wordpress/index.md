@@ -1,6 +1,6 @@
-## Normes de développement pour WordPress
+# Normes de développement pour WordPress
 
-### Plugins approuvés par l'équipe
+## Plugins approuvés par l'équipe
 
 - Polylang
 - YoastSEO
