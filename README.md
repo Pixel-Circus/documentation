@@ -6,4 +6,4 @@ La documentation est écrite avec la syntaxe (Markdown)[https://github.com/adam-
 
 ## Règles de rédaction
 
-1. Ne pas utiliser de "H1". Cela a pour conséquence de changer le titre du site.
+
