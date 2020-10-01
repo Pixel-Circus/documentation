@@ -23,11 +23,11 @@
 - React
 - jQuery
 - Webpack
-- WordPress
+- [WordPress] (/wordpress/)
 
 ### Backend
 
-- WordPress
+- [WordPress] (/wordpress/)
 - TypeRocket
 - Composer
 
