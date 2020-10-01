@@ -1,21 +1,21 @@
-## Documentation des processus
+# Documentation des processus
 
-### Gestion
+## Gestion
 
 - Asana
 - Gmail
 
-### Design
+## Design
 
 - Figma
 - Normes
 
-### Développement
+## Développement
 
 - Git
 - Visual Studio Code
 
-#### Frontend
+### Frontend
 
 - SCSS
 - SMACSS
@@ -25,13 +25,13 @@
 - Webpack
 - [WordPress](wordpress/)
 
-#### Backend
+### Backend
 
 - [WordPress](wordpress/)
 - TypeRocket
 - Composer
 
-### Legacy
+## Legacy
 
 - CodeIgniter
 - Gulp
