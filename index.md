@@ -1,9 +1,10 @@
 # Documentation des processus
 
-## Gestion
+## Gestion/Communication
 
-- Asana
-- Gmail
+- Asana (Pour QA/Points client)
+- [Slack](https://join.slack.com/t/pixel-circus/shared_invite/zt-hysuxx1h-QYYwyqhtkFM_o3m4ZpF1QQ) (Pour discussion courte)
+- Gmail (Pour discussion longue/officielle)
 
 ## Design
 
@@ -12,7 +13,7 @@
 
 ## Développement
 
-- Git
+- Git (Versionning fait via [GitHub](https://github.com/Pixel-Circus/))
 - Visual Studio Code
 
 ### Frontend
