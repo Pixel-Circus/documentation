@@ -6,7 +6,10 @@ La documentation est écrite avec la syntaxe [Markdown](https://github.com/adam-
 
 ## Règles de rédaction
 
-
+1. Éviter de créer une hiérarchie de dossiers, favoriser la création de document dans les dossiers existants.
+2. Le dossier "code" contient la documentation des langages et frameworks utilisés dans les projets.
+3. Le dossier "outils" contient la documentation de tous les logiciels/sites/technologies utilisés pour supporter le développement des projets.
+4. Le dossier "processus" contient toutes les étapes de réalisation de plusieurs types de tâches au sein de l'agence.
 
 ## Comment modifier la documentation
 

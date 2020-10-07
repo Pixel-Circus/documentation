@@ -22,6 +22,10 @@ Aucun requis. Ligne de commande ou un logiciel d'aide comme on veut.
 
 TBD (Une branch pour chaque élément durant le développement actif, ou garder les branch pour chaque élément lors d'ajout d'éléments apres le dev actif.)
 
+https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow
+
 ## Releases/Tags
 
-TBD (Majeur.Mineur.BugFix ou Date YYYY.MM.DD?)
+TBD (**Majeur.Mineur.BugFix** ou Date YYYY.MM.DD?)
+
+[Semver](https://semver.org/)
