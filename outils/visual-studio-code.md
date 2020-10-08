@@ -2,6 +2,7 @@
 
 ## Configuration
 
+Utiliser Git Bash pour terminal
 
 ## Extensions
 

@@ -10,6 +10,10 @@
   - Uikit-Base (UIKit)
   - shiroi-theme (pas de templating préfait.)
 
+## WP Cli
+
+L'installation recommandée est [avec Composer](https://make.wordpress.org/cli/handbook/guides/installing/#installing-via-composer): `composer global require wp-cli/wp-cli-bundle` 
+
 ## Plugins approuvés par l'équipe
 
 - [LiteSpeed Cache](https://fr.wordpress.org/plugins/litespeed-cache/) (Caching, surtout pour nos sites hostés sur serveur a marc.)
