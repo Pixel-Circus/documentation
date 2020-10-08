@@ -1,7 +1,8 @@
 # Utilisation de Visual Studio Code
 
 ## Configuration
-Pas de configuration oligatoire.
+
+Utiliser Git Bash pour terminal
 
 ## Extensions
 
