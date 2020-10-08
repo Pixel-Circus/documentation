@@ -41,34 +41,34 @@
 
 ### Explication
 
-#### <div id="assets_src">assets_src</div>
+#### assets_src {#assets_src}
 
 Contient tout ce qui nest pas structure. Sera compilé/compressé dans assets_dist lorsque on fera un build.
 
-#### <div id="assets_src">components</div>
+#### components {#components}
 Contient un dossier par component. Chaque component contient un .scss et si besoin un .js qui contient le code pour le bon fonctionnement du component. Peut aussi contenir un .php du code nécessaire.
 
-#### <div id="images">images</div>
+#### images {#images}
 Contient toutes les images loadées du thème. Seront compressées dans assets_dist lors d'un build.
 
-#### <div id="js">js et scss</div>
+#### js et scss {#js}
 Les dossiers js et scss contiennent le js et scss (respectivement) root (celui qui import tous les components nécessaires au site.)
 
-#### <span id="video">video</span>
+#### video {#video}
 Si on demande d'avoir un vidéo, et que celui-ci est hosté sur le serveur, le mettre ici.
 
-#### <div id="includes">includes</div>
+#### includes {#includes}
 Contient toutes les fonctions de Wordpress qui sont créées pour le bon fonctionnement du thème. Pas de structure ici, juste des hooks ou des fonctions aidantes.
 
-#### <div id="languages">languages</div>
+#### languages {#languages}
 Contient les mo/po nécessaires pour la traduction du thème.
 
-#### <div id="partials">partials</div>
+#### partials {$partials}
 Parties du thèmes qui seront réutilisées de template en template. Exemple: header (top.php) et footer (bottom.php)
 
-#### <div id="templates">templates</div>
+#### templates {#templates}
 Les templates nécessaires au fonctionnement du site, qui ne sont pas des fichiers de base de WP.
 
-#### <div id="wp-admin">wp-admin</div>
+#### wp-admin {#wp-admin}
 Contient les scripts/styles qui ne sont utilisés que dans l'administration WP.
 
