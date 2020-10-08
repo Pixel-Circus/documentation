@@ -13,26 +13,26 @@
 
 ## Développement
 
-- Git (Versionning fait via [GitHub](https://github.com/Pixel-Circus/))
-- Visual Studio Code
+- [Git](outils/github/) (Versionning fait via [GitHub](https://github.com/Pixel-Circus/))
+- [Visual Studio Code](outils/visual-studio-code/)
 
 ### Frontend
 
-- SCSS
-- SMACSS
-- Bootstrap
-- React
-- jQuery
-- Webpack
-- [WordPress](wordpress/)
+- [SCSS](code/css)
+- [SMACSS](code/normes-css)
+- [Bootstrap](code/bootstrap)
+- [React](code/react)
+- [jQuery](code/librairies-js#jquery)
+- [Webpack](outils/webpack)
+- [WordPress](code/wordpress/)
 
 ### Backend
 
-- [WordPress](wordpress/)
+- [WordPress](code/wordpress/)
 - TypeRocket
 - Composer
 
 ## Legacy
 
-- CodeIgniter
+- [CodeIgniter](code/legacy/codeigniter)
 - Gulp
