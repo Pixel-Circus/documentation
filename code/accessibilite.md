@@ -1,0 +1,1 @@
+TBD: On fait 0 pour l'accessibilité en ce moment. Pas de setup genre 'grossir la fonte'm de checker nos maquettes pour le daltonisme ou même de stuff pour les screen reader. Jpense le plus on fait c'est les alt parce que sinon le linter me crie après.
