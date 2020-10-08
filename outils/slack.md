@@ -15,6 +15,12 @@ Si une discussion ouvre dans un channel public, essayer le plus possible de gard
 ### #General
 Le channel devrait être utilisé pour les messages d'intérêts génériques, comme annoncer si on est absent pour la journée ou lorsque on travaille de la maison, annoncer que on est devant son poste prêt a travailler ou on a quitté pour la journée.
 
+### #abstract
+TODO: Pour éric, je sais pas trop ce qui a la dedans.
+
+### #designsystem
+TODO: Pour éric, je sais pas trop ce qui a la dedans.
+
 ### #processes
 Le channel est utilisé pour discuter des procédés et des améliorations possibles à comment nous travaillons.
 
@@ -37,7 +43,7 @@ Un bot post ici si un site dépasse le 80% de capacité RAM de son serveur.
 Un bot post ici si il voit un de nos sites down. Teste aux 5 minutes. Lié a [Uptime Robot](https://uptimerobot.com/) - Compte fpilon@pixelcircus.ca
 
 #### #z_wordfence
-Un bot poste ici lorsque quelqu'un se connecte à un de nos WP et si un de nos sites reçoit une attaque.
+Un bot poste ici lorsque quelqu'un se connecte à un de nos WP et si un de nos sites reçoit une attaque. Lié au compte pixelcircus sur [Wordfence](https://www.wordfence.com/)
 
 ### #random
 Vous avez une tite joke de programmation a passer? Une photo de votre chat? Quelque chose qui pourrait être d'intérêt pour les autres employés mais qui n'a pas rapport avec le travail en particulier? C'est la place.
