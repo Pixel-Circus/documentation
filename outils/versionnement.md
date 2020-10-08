@@ -22,6 +22,8 @@ Aucun requis. Ligne de commande ou un logiciel d'aide comme on veut.
 
 TBD (Une branch pour chaque élément durant le développement actif, ou garder les branch pour chaque élément lors d'ajout d'éléments apres le dev actif.)
 
+Pour lorsque on ne travaille pas seul ou lorsqu'on travaille sur des fonctionalités aditionnelles/régler des bugs, à ce point il faut faire une branche pour chaque modification (ne pas aller a l'excès, on s'entend, ne pas faire une branch pour une virgule...)
+
 https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow
 
 ## Releases/Tags
