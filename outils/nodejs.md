@@ -8,7 +8,7 @@ En gros, si dans les fichiers du site ou du thème on voit un package.json, il f
 
 ## Yarn vs Npm
 
-TBD: Est-ce que il y a un problème avec utiliser celui que on veut? Seule différence je (Fred) voit c'est que un fait un package-lock.json et l'autre fait yarn-lock.json... mais notre code est habituellement pas nécessitant une version très particuliere du plugin NPM.
+Yarn est préférable a NPM.
 
 ## Legacy
 

@@ -20,13 +20,20 @@ Aucun requis. Ligne de commande ou un logiciel d'aide comme on veut.
 
 ## Branches
 
-TBD (Une branch pour chaque élément durant le développement actif, ou garder les branch pour chaque élément lors d'ajout d'éléments apres le dev actif.)
+Une branch devrait être utilisée pour chaque élément majeur. (Header/Footer/Template, etc.)
+Après le développement actif, une branch par point réglé.
 
 https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow
 
 ## Releases/Tags
 
-TBD (**Majeur.Mineur.BugFix** ou Date YYYY.MM.DD?)
+Majeur.Mineur.BugFix
+
+Majeur: Ces modifications vont briser des choses précédemment correctes.
+Mineur: Ces modifications ne vont pas briser des éléments, mais n'est pas non plus un bug fix.
+Bugfix: Est un bug fix, virgule qui manque, etc.
+
+Lorsque on change une version, tous les # de version en dessous retombent à 0. Exemple: 2.3.4 devient 2.4.0 et non pas 2.4.4
 
 [Semver](https://semver.org/)
 
