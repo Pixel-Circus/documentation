@@ -10,9 +10,9 @@ Marc-andré devrait nous faire un script qui permet rapidement de importer de Pr
 
 ## Wordpress
 
-Lors de la mise en ligne d'un site WP, quelques petites choses sont a ajouter.
+Lors de la mise en ligne d'un site WP, quelques petites choses sont à ajouter.
 
-1. Installer Litespeed cache. Lier l'installation a un compte quic.cloud via le dashboard de Litespeed Cache.
+1. Installer Litespeed cache. Lier l'installation à un compte quic.cloud via le dashboard de Litespeed Cache.
     - Dans Image optimisation/optimisation settings, mettre Auto Request Cron à ON.
 2. Installer Wordfence, lier au compte PixelCircus.
     - Sync les options Wordfence au template Pix (dans Wordfence)
