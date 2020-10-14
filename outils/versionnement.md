@@ -23,6 +23,8 @@ Aucun requis. Ligne de commande ou un logiciel d'aide comme on veut.
 Une branch devrait être utilisée pour chaque élément majeur. (Header/Footer/Template, etc.)
 Après le développement actif, une branch par point réglé.
 
+Pour lorsqu'on ne travaille pas seul ou lorsqu'on travaille sur des fonctionalités additionnelles/régler des bugs, à ce point il faut faire une branche pour chaque modification (ne pas aller a l'excès, on s'entend, ne pas faire une branche pour une virgule...)
+
 https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow
 
 ## Releases/Tags
