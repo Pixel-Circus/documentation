@@ -7,6 +7,7 @@ Lorsqu'on démarre un nouveau projet Web dans Figma, on doit y dupliquer la libr
 
 Sources
 https://medium.com/swlh/the-comprehensive-8pt-grid-guide-aa16ff402179
+
 https://medium.com/swlh/design-system-based-on-the-8pt-grid-2473ca5f0ae1
 
 
