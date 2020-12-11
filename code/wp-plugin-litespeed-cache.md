@@ -11,13 +11,13 @@ Lier a un quic.cloud account (fpilon@pixelcircus.ca; le mot de passe est dans le
 ### General ###
 Tout devrait être ON except cache mobile.
 
-Cache logged in users peut être a OFF pour tester lorsque on place du nouveau code en prod.
+Cache logged in users doit être à ON. On peut temporairement le mettre OFF pour tester lorsque on place du nouveau code en prod, mais lorsque nous ne sommes pas en modifications, doit être à ON.
 
 ### TTL/Purge/ESI/Object/Browser/Advanced ###
-Ne pas toucher a moins d'indication contraire.
+Ne pas toucher à moins d'indication contraire.
 
 ## CDN ##
-Options a explorer. Gratuit jusque a 10GB par mois.
+Options a explorer. Gratuit jusqu'à 10GB par mois.
 
 ## Image Optimisation (Settings) ##
 
@@ -25,13 +25,13 @@ Options a explorer. Gratuit jusque a 10GB par mois.
 
 **Optimize original images :** ON
 
-**Remove Original Backups :** OFF. Mettre a ON seulement si nécessaire pour réduire la taille générale du site. Ceci supprime les image originales, donc est irréversible.
+**Remove Original Backups :** OFF. Mettre a ON seulement si nécessaire pour réduire la taille générale du site. Ceci supprime les images originales, donc c'est irréversible.
 
 **Optimize losslessly :** ON
 
 **Preserve EXIF/XMP data :** OFF
 
-**Create WebP Versions/Image WebP Replacement/WebP For Extra srcset :** ON. Ceci ajoute des versions WebP et remplaces les images dans le code par ces WebP. Est OFF par défaut.
+**Create WebP Versions/Image WebP Replacement/WebP For Extra srcset :** ON. Ceci ajoute des versions WebP et remplace les images dans le code par ces WebP. C'est OFF par défaut.
 
 **WebP Attribute To Replace :** Garder recommended value.
 
@@ -39,24 +39,26 @@ Options a explorer. Gratuit jusque a 10GB par mois.
 
 ## Page optimisation ##
 
-Dans cette section c'est beaucoup de activer une option, clear cache, test en session incognito.
+Dans cette section, c'est beaucoup d'activer une option, clear cache et test en session incognito.
 
-Beaucoup de trucs peuvent crash.
+Beaucoup de trucs peuvent briser.
+
+TODO: Trouver une configuration générale qui semble bien fonctionner.
 
 ### CSS/JS ###
-En activer le plus possible avant sa crashe (souvent les font vont arrêter de loader, je n'ai pas pus vraiment voir pourquoi)
+En activer le plus possible avant que ça brise (souvent les font vont arrêter de loader, je n'ai pas pu vraiment voir pourquoi)
 
 Les plus importants sont loader en http2 et async. Mais chaque site a une config un peu différente dépendemment de ce qui casse ou non.
 
 ### Optimisation ###
-Tout devrait être a ON, sauf Remove Google Fonts, qui devrait être a OFF.
+Tout devrait être à ON, sauf Remove Google Fonts, qui devrait être à OFF.
 
 ### Media settings ###
-**Lazy load images** et **Responsive placeholder** devrait etre a ON;
+**Lazy load images** et **Responsive placeholder** devrait etre à ON;
 
-**LQIP** n'est pas utilisé, mais on devrait ptete regarder pour l'utiliser.
+**LQIP** n'est pas utilisé, mais on devrait explorer si possible/utile de l'utiliser.
 
-**Lazy Load Iframes** devrait être a ON.
+**Lazy Load Iframes** devrait être à ON.
 
 ### Media Excludes ###
 Devrait être vide ou recommended value.
