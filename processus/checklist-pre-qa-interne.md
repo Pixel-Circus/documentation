@@ -15,6 +15,7 @@
 - [ ] Le favicon devrait avoir été changé pour quelque chose de représentatif au client.
 - [ ] Les popups devraient pouvoir être fermés via un clic sur le background
 - [ ] Les comptes internes devraient être créés (Intégrateur/Programmeur (si nécessaire)/Chargé de Projet et Éric) Mettre des passwords défini au hazard pour les comptes qui ne sont pas le sien.
+- [ ] Les images devraient toutes avoir un ALT
 
 ## Animation ##
 - [ ] Voir pour les détails de l'intégration tel que vu par le designer.
