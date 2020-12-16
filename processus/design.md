@@ -1,7 +1,9 @@
 
 ## Principes de design
 
-Nouveau projet
+Tous les espacements du site suivent les multiples de 8px avec quelques exceptions à 4px. Ceci s'applique aussi au line-height.
+
+## Nouveau projet
 
 Lorsqu'on démarre un nouveau projet Web dans Figma, on doit y dupliquer la librairie de style (Styles librairy) du Team Pixel Circus. Par la suite on doit mettre à jour les styles du document avec ceux du client.
 
