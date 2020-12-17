@@ -82,4 +82,4 @@ Voir page typerocket de la documentation
 
 Ce fichier permet de forcer la main de Yoast SEO lorsqu'il ne coopère pas.
 
-Si on en a besoin, batir ses conditions dans les fonctions `force_SEO_Title` et `force_SEO_Description` et ensuite dé-commenter les hooks en bas du site.
+Si on en a besoin, bâtir ses conditions dans les fonctions `force_SEO_Title` et `force_SEO_Description` et ensuite dé-commenter les hooks en bas du site.
