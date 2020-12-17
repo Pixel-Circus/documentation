@@ -26,16 +26,20 @@ $box = PageTemplateMetaBox::make('Home','templates/accueil.php');
 $box->addPostType('page');
 $box->setContext('normal');
 $box->setCallback(function() {
+    fieldsHome()
+})
 ```
 
 - Au début, on crée le bloc. La fonction prend 2 éléments: Un nom (qui doit être unique) et ensuite le nom du template (path complet à partir du thème)
 - addPostType est défini à `page`, puisque les fields s'appliqueront dans une page.
-- setContext est défini à `normal`. Peut être mis a `side` si on veut qu'il s'applique a la sidebar.
-- setCallback est une fonction qui gère les fields. On va l'expliquer en détail dans la prochaine section.
+- setContext est défini à `normal`. Peut être mis à `side` si on veut qu'il s'applique a la sidebar.
+- setCallback est une fonction qui gère les fields. On va l'expliquer en détail dans la prochaine section. La fonction est placée à l'extérieur du setup Typerocket pour simplifier la lecture.
 
 ## Le Callback ##
 
-Le callback débute par `$form = tr_form()`. Ceci crée un object que on va référer quand on va créer tous les champs.
+Créer les fonctions callback en dehors du filter, pour faciliter la lecture. Le filter agit comme une table des matières pour toutes les fonctions callback.
+
+Le callback débute par `$form = tr_form()`. Ceci crée un object qu'on va référer quand on va créer tous les champs.
 
 Ensuite chaque field peut être créé avec la fonction suivante:
 
@@ -48,11 +52,11 @@ echo $form->**type**('**slug**')->setLabel('**nom**')
 ### Les types ###
 Il y a beaucoup de types simples:
  - text : Champ texte classique.
- - textarea: Boite de texte acceptant les retours de ligne. Ne pas oublier de faire un nl2br() quand on affiche le champ, sinon les retours seront ignorés à l'affichage.
+ - textarea: Boîte de texte acceptant les retours de ligne. Ne pas oublier de faire un nl2br() quand on affiche le champ, sinon les retours seront ignorés à l'affichage.
  - wpEditor: affiche un wysiwyg de Wordpress. Permet d'avoir des titres, du bold, italique, etc.
  - image: Une image. Sera sauvegardé comme le ID de l'image.
  - file: Un fichier. Sauvegardé comme id de attachment.
- - checkbox: Une checkbox simple, qui retournera un vrai/faux.
+ - checkbox: Une simple checkbox, qui retournera un vrai/faux.
 
 Mais aussi des types un peu plus complexes:
 
@@ -72,7 +76,7 @@ echo $form->row(
 Remarquer que les echo ne sont plus nécessaires à l'intérieur du row et les lignes ne se terminent pas par un point virgule, mais une virgule.
 
 #### Repeater ####
-Permet d'avoir un élément qui se répête. Par exemple, pour un tableau de données. Les valeurs sont données via un array serialisé, alors ne pas oublier de `unserialize()` sur le meta avant de pouvoir l'utiliser.
+Permet d'avoir un élément qui se répète. Par exemple, pour un tableau de données. Les valeurs sont données via un array sérialisé, alors ne pas oublier de `unserialize()` sur le meta avant de pouvoir l'utiliser.
 
 Voici la structure:
 ```php
@@ -82,4 +86,4 @@ echo $form->repeater('footer_membres')->setLabel('Membres')->setFields([
 ]);
 ```
 
-Donc il faut mettre tous les champs du repeater sous un setFields. Et ensuite, sa fonctionne pas mal comme les row. Pas de echo, et les lignes sont séparées par des virgules.
+Donc il faut mettre tous les champs du repeater sous un setFields. Et ensuite, ça fonctionne pas mal comme les row. Pas d'echo, et les lignes sont séparées par des virgules.
