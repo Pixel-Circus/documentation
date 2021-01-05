@@ -24,8 +24,8 @@ Le poste peut en avoir déja une.
 
 ## Se connecter via Filezilla au serveur ##
 
-### Sur le serveur ###
-1. Se connecter au serveur, et choisir le compte auquel on va vouloir se connecter.
+### Sur le serveur (Cpanel) ###
+1. Se connecter au cpanel général du serveur (cloud-cluster), et choisir le compte auquel on va vouloir se connecter.
 2. Aller dans le menu **SSH Access -> Manage SSH Keys -> Import Key**
 3. Donner un nom a l'accès (utiliser quelque chose qui vous identifie facilement, tel votre nom.)
 4. Ouvrir sa clé publique dans un lecteur texte, et copier/coller la clé dans **'Paste the public key in the following text box'**. Les 2 autres champs devraient être laissés vides.
