@@ -4,13 +4,21 @@
 
 ## Bonnes pratiques
 
-#### Images
+### Images
 
 Dans le thème, ne pas utiliser de JPG/PNG. Toutes les images loadées par le thème devraient être loadées via SVG/WebP. Pas besoin de export les images en WebP dès le départ, le thème s'en charge (une image mise dans les sources comme image.jpg deviendra image.webp)
 
 Afin de réduire le plus possible le score CLS, les blocs devraient avoir le mions de variance possible. Ce qui veut dire éviter les éléments ajoutés en JS et définir les tailles des images dans le code, comme ça elles prennent leur espace avant même que l'image soit loadée.
 
 Essayer de ne pas charger les grosses images via CSS. Les images majeures devraient être loadées via un tag IMG pour qu'ils puissent être mis en lazyload par litespeed.
+
+### Fontes
+
+Les fontes loadées via Font-Face doivent contenir `font-display: swap;`. Cette commande, en gros, donne un temps illimité a la fonte pour charger, et lorsqu'elle est chargée, remplace la fonte fallback pour la fonte chargée.
+
+### Liens/Boutons
+
+Les liens/boutons ne contentant pas de texte (comme ceux qui contiennent uniquement une icone) devraient avoir un aria-label associé pour les screenreaders.
 
 ## Avoir son résultat
 
