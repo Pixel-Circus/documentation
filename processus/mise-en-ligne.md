@@ -2,9 +2,9 @@
 
 ## Requis
 
-Search Console
-TBD: Google Tag Manager?
-Google Analytics
+- [ ] Search Console
+- [ ] Google Tag Manager
+   - [ ] Google Analytics
 
 
 ## Serveurs et hébergement
