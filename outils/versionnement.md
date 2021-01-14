@@ -39,6 +39,11 @@ Lorsque on change une version, tous les # de version en dessous retombent à 0. 
 
 [Semver](https://semver.org/)
 
+## Commandes clées
+
+`git checkout --track origin/BRANCHE` 
+**Checkout la branche en utilisant le même nom que pour l'origine et ajoute le tracking de l'origine**
+
 ## Gestion des gitignores
 
 ### .gitignore

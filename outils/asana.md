@@ -6,6 +6,10 @@ Lorsque l'intervenant a terminé son travail et mis la modification visible dans
 
 Le chargé de projet vérifiera que la tâche est faite selon les demandes et lui marquera la tâche comme terminée s'il croît que la tâche est terminée pour le client.
 
+## Bonne pratique
+
+Lors de retour client/QA, ne pas mettre les retours en commentaires, mais plutôt créer une nouvelle sous-tâche avec les retours en description. Ça permet d'éditer et d'annoter les retours.
+
 ## Maintenance
 
 TBD: En gros les points qui trainent depuis disons 6 mois devraient être fermés (si bien sur ils ne sont pas, pour une raison quelconque, encore courants)? 
