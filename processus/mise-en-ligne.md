@@ -5,55 +5,23 @@
 - [ ] Search Console
 - [ ] Google Tag Manager
 - [ ] Google Analytics
-
-
 ## Serveurs et hébergement
 
-## Connection au serveur
+La majorité de nos sites sont hébergés sur un serveur géré par Marc-André. C'est un serveur avec CloudLinux, WHM et cPanel.
+
+## Connection au serveur 
+
+[Se connecter au serveur en SSH](connection-ssh-serveur.html)
 
 ## Configuration preprod
 
-TODO:
+Un compte cPanel est créé pour chaque environnement. Une fois le compte créé il faut configurer l'intégration continue pour que les mises en ligne soient automatique.
 
-Créer un accès Git pour le preprod: 
-<pre>
-cd ~/.ssh && ssh-keygen //github_rsa pour le nom de clé 
-cat ~/.ssh/github_rsa.pub
-coller le contenu sur github
-nano ~/.ssh/config
-> Host git
-   Hostname (l'URL du fournisseur - i.e. gitlab.com)
-   User git
-   IdentityFile ~/.ssh/(ta clé privée - soit celle sans extension)
-
-//test 
-ssh git
-//Setup repo git
-git init
-
-nano .git/info/exclude
-.*
-access-logs
-cache
-concours.patrimoine-religieux.qc.ca
-etc
-logs
-mail
-public_ftp
-ssl
-tmp
-var
-www
-cpbackup-exclude.conf
-
-git remote add origin git:path/to/the/repository.git
-
-git pull --track origin preprod
-</pre>
+Voir [Configuration de l'intégration continue](configuration-integration-continue.html).
 
 ## Automatisation
 
-Marc-andré devrait nous faire un script qui permet rapidement de importer de Productiona stage et l'inverse.
+Marc-André devrait nous faire un script qui permet rapidement de importer de Production à Stage et l'inverse.
 
 ## Wordpress
 
