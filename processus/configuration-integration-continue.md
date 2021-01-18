@@ -1,6 +1,6 @@
 # Configuration des projets pour l'intégration continue
 
-L'intégration continue mise en place pour le moment consiste seulement à une mise à jour automatique des fichiers source à partir de Git.
+L'intégration continue mise en place pour le moment consiste seulement à une mise à jour automatique des fichiers source à partir de Git. Git doit contenir tous les fichiers incluant les fichiers générés ou vendor nécessaires au fonctionnement du site sur le serveur preprod/live excluant les uploads et tout autre fichier lié à la base de donnée.
 
 ## Fonctionnement
 
@@ -66,6 +66,8 @@ Le fichier `index.php` du site doit se retrouver dans un dossier `public_html` s
 ### Conversion d'un projet Wordpress
 
 TODO
+
+https://matthewdaly.co.uk/blog/2019/09/22/storing-wordpress-configuration-in-environment-variables/
 
 ### Conversion d'un projet Pixms
 

@@ -12,4 +12,6 @@ git fetch --tags -f;
 
 git checkout tags/$ENV;
 
+#TODO log updates if any with date and modified files
+
 echo "Done.";
