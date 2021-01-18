@@ -15,7 +15,9 @@ La majorité de nos sites sont hébergés sur un serveur géré par Marc-André.
 
 ## Configuration preprod
 
-Un compte cPanel est créé pour chaque environnement. Une fois le compte créé il faut configurer l'intégration continue pour que les mises en ligne soient automatique.
+Un [compte cPanel est créé](creation-compte-cpanel.html) pour chaque environnement dans le WHM en utilisation un sous-domaine du domaine pixelcircusclient.com. Une fois le compte créé, il faut configurer l'intégration continue pour que les mises en ligne soient automatique.
+
+Il faut ensuite ajouter l'entrée DNS dans Cloudflare pour le nouveau sous-domaine pixelcircusclient.com qui a été créé. L'adresse IP est affichée sur la page d'accueil du cPanel.
 
 Voir [Configuration de l'intégration continue](configuration-integration-continue.html).
 
