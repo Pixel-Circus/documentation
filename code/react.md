@@ -15,30 +15,32 @@
 - Tout est dans `/src/`
 
 ### app.js
-Le fichier de base app.js est surtout uniquement utilisé pour le routing et certains setups génériques a l'app au complet.
+Le fichier de base app.js est surtout uniquement utilisé pour le routing et certains setups génériques à l'app au complet.
 
 ### /assets/
 Contient toutes les images sous images, les scss généraux sous /scss/
 
 ### /components/
-Contient les petits modules, les pièces de puzzle qui batissent le site. Chaque module doit être un petit élément du site, et doit pouvoir se tenir debout par lui même.
+Contient les petits modules, les pièces de puzzle qui bâtissent le site. Chaque module doit être un petit élément du site, et doit pouvoir se tenir debout par lui-même.
 
-Les modules dans components ne devraient pas appeller d'autres components.
+Les modules dans components ne devraient pas appeler d'autres components.
 
-Chaque module est contenu dans son propre dossier, contenant le JS du module, et le SCSS de tout ce qui est relié a ce module.
+Chaque module est contenu dans son propre dossier, contenant le JS du module, et le SCSS de tout ce qui est relié à ce module.
 
 ### /container/
-Contient des modules moyens, qui sont une combinaison de modules trouvés sous components. Choses de l'empleur de listes ou formulaires.
+Contient des modules moyens, qui sont une combinaison de modules trouvés sous components. Choses de l'ampleur de listes ou formulaires.
 
 ### /templates/
 Même structure que les modules, mais ici c'est des pages entières, bâties via des modules de components/containers. C'est aussi dans ces fichiers que seront gérés les appels nécessaires via axiom et les setups généraux de page.
 
 ### /functions/
 
-Contient les fonctions JS qui peuvent-être nécessaire dans de multiples modules sans être ouvertement reliés a ce module. Exemple: Une fonction qui permet de prendre une string et en faire un slug.
+Contient les fonctions JS qui peuvent-être nécessaires dans de multiples modules sans être ouvertement reliés à ce module. Exemple: Une fonction qui permet de prendre une string et en faire un slug.
 
 ### /actionCreator/ et /reducers/
 
 Contient le code nécessaire pour permettre l'utilisation de reducers Redux, si nécessaire.
 
 ## NextJS
+
+TODO À écrire
