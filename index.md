@@ -34,7 +34,6 @@
 - [** Normes CSS](code/normes-css)
 - [* Normes JS](code/normes-js)
 - [** Normes PHP](code/normes-php)
-- [** Normes Wordpress](code/normes-wordpress)
 
 ### WordPress
 - [Wordpress](code/wordpress)
