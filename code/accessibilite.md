@@ -1,1 +1,13 @@
-TBD: On fait 0 pour l'accessibilité en ce moment. Pas de setup genre 'grossir la fonte'm de checker nos maquettes pour le daltonisme ou même de stuff pour les screen reader. Jpense le plus on fait c'est les alt parce que sinon le linter me crie après.
+# Acessibilité
+
+## Pour les screen readers
+
+- Tout lien/bouton devrait soit
+    1. Avoir un texte
+    2. Ou si le design ne demande pas un texte (par exemple le lien pour un module de recherche qui ne serait qu'une loupe) utiliser l'attribut `aria-label`
+
+- Toutes les images devraient avoir un ALT.
+
+## Pour les handicaps
+
+À moins que ce soit signifié dans le projet, nous ne faisons pas d'accessibilité pour les autres handicaps, comme un mode sombre ou une façon de changer la taille du texte.
