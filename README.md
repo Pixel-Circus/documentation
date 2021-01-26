@@ -10,7 +10,8 @@ La documentation est écrite avec la syntaxe [Markdown](https://github.com/adam-
 2. Le dossier "code" contient la documentation des langages et frameworks utilisés dans les projets.
 3. Le dossier "outils" contient la documentation de tous les logiciels/sites/technologies utilisés pour supporter le développement des projets.
 4. Le dossier "processus" contient toutes les étapes de réalisation de plusieurs types de tâches au sein de l'agence.
-5. Si une section est à compléter, la précéder d'un des deux préfixes suivants:
+5. Le dossier "projets" contient des aides mémoires qui contient les choses qui sont pas des évidnces ou qui sont des fa^cons de faire qui sont uniquement utilisées dans ce projet.
+6. Si une section est à compléter, la précéder d'un des deux préfixes suivants:
    1. **TBD: To be decided**
    Ce point nécessitera qu'on prenne une décision d'équipe sur cette question avant qu'on écrive la documentation.
    2. **TODO: À faire** 
