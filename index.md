@@ -79,3 +79,6 @@
 ### Checklists
 - [Mise en ligne](processus/checklist-mise-en-ligne)
 - [Pré QA Interne](processus/checklist-pre-qa-interne)
+
+## Projets
+- [Aide mémoire pour les projets](projets/index)
