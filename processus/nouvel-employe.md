@@ -20,7 +20,7 @@ TODO: Accès à Figma? Ou on utilise eferole?
 
 ### Pour les développeurs
 
-Donner le courirel de son compte GitHub (on peut utiliser son personnel, pas obligatoire que ça passe via le courriel pixelcircus). On te rajoutera à l'équipe.
+Donner le courriel de son compte GitHub (on peut utiliser son personnel, pas obligatoire que ça passe via le courriel pixelcircus). On te rajoutera à l'équipe.
 
 ## Normes
 
