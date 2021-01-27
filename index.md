@@ -11,28 +11,74 @@
 - Figma
 - Normes
 
-## Développement
+# Table des matières de cette documentation
 
-- [Git](outils/github/) (Versionning fait via [GitHub](https://github.com/Pixel-Circus/))
-- [Visual Studio Code](outils/visual-studio-code/)
+`*` Cette page est à écrire.
 
-### Frontend
+`**` Cette page est à compléter.
 
-- [SCSS](code/css)
-- [SMACSS](code/normes-css)
-- [Bootstrap](code/bootstrap)
-- [React](code/react)
-- [jQuery](code/librairies-js#jquery)
-- [Webpack](outils/webpack)
-- [WordPress](code/wordpress/)
+## Code
+- [* Accessibilité](code/accessibilite)
+- [* Bootstrap](code/bootstrap)
+- [* Gestion des données](code/gestion-des-donnees)
+- [** Performance](code/performance)
+- [Philosophies](code/philosophies)
+- [** React](code/react)
 
-### Backend
+### Librairies courantes
+- [* Librairies JS](code/librairies-js)
+- [* Librairies PHP](code/librairies-php)
 
-- [WordPress](code/wordpress/)
-- TypeRocket
-- Composer
+### Normes
+- [* Normes HTML](code/normes-html)
+- [** Normes CSS](code/normes-css)
+- [* Normes JS](code/normes-js)
+- [** Normes PHP](code/normes-php)
 
-## Legacy
+### WordPress
+- [Wordpress](code/wordpress)
+- [Typerocket](code/typerocket)
+- [Lightspeed Cache](code/wp-plugin-litespeed-cache)
+- [Wordfence](code/wp-plugin-wordfence)
 
-- [CodeIgniter](code/legacy/codeigniter)
-- Gulp
+### Legacy
+- [CodeIgniter](code/codeigniter)
+
+## Outils
+
+- [Asana](outils/asana)
+- [* Base de données](outils/bases-de-donnees)
+- [** Configuration de son poste](outils/configuration-ordinateur)
+- [** Github](outils/github)
+- [Navigateurs supportés](outils/navigateurs-supportes)
+- [NodeJS](outils/nodejs)
+- [Slack](outils/slack)
+- [Versionnement](outils/versionnement)
+- [Visual Studio Code](outils/visual-studio-code)
+- [* Webpack](outils/webpack)
+
+## Processus
+
+### * À classer  
+- [* Maintenance](processus/maintenance)
+- [* Nouvel employé](processus/nouvel-employe)
+- [* Types de projets](processus/projet)
+### Gestion
+- [* Dossier client](processus/dossier-client)
+### Design
+- [Design](processus/design)
+### Intégrateur
+#### Local/Dev
+- [Installation d'un site sur son poste](processus/installation-en-local)
+- [Création d'un nouveau site Wordpress](processus/creation-nouveau-site-wp.md)
+- [Ajout de fontes au projet](processus/fonts)
+
+#### Mise en stage/production
+- [Connexion au serveur via SSH](processus/connection-ssh-serveur)
+
+### Checklists
+- [Mise en ligne](processus/checklist-mise-en-ligne)
+- [Pré QA Interne](processus/checklist-pre-qa-interne)
+
+## Projets
+- [Aide mémoire pour les projets](projets/index)

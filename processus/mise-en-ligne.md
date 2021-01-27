@@ -4,7 +4,7 @@
 
 - [ ] Search Console
 - [ ] Google Tag Manager
-   - [ ] Google Analytics
+- [ ] Google Analytics
 
 
 ## Serveurs et hébergement
