@@ -20,6 +20,7 @@ jQuery est inclus de base dans tous nos sites.
  
 ### Modals/Popups *
 [Fancybox](http://fancyapps.com/fancybox/3/)
+[Magnific Popup](https://dimsemenov.com/plugins/magnific-popup/)
  
 ### Selects
 [Select2](https://select2.org/)
