@@ -21,9 +21,19 @@ Il faut ensuite ajouter l'entrée DNS dans Cloudflare pour le nouveau sous-domai
 
 Voir [Configuration de l'intégration continue](configuration-integration-continue.html).
 
+### Changement de version PHP pour les environnements de développement
+
+Dans le htaccess, il est possible de changer la version PHP utilisée par l'environnement de développement avec cette ligne : 
+
+`AddType application/x-lsphp72 .php`
+
+Les 2 chiffres représentants la version PHP voulue. _Cette version de PHP n'utilise pas les configurations dans le cPanel._
+
+**Ne jamais utiliser pour l'environnement de production** Il faut plutôt changer la valeur dans le sélecteur PHP du cPanel.
+
 ## Automatisation
 
-Marc-André devrait nous faire un script qui permet rapidement de importer de Production à Stage et l'inverse.
+Voir [Configuration de l'intégration continue](configuration-integration-continue.html).
 
 ## Wordpress
 
