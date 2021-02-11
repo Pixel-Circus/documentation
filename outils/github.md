@@ -8,7 +8,11 @@ Voici un article qui décrit comment formatter un [message de commit pertinent](
 
 La première ligne est réservée au sujet qui doit décrire brièvement le contenu du commit. Il est possible d'ajouter une description plus longue après un retour à la ligne.
 
-Le sujet doit décrire un type d'action: Mise à jour, Refactorisation, Bugfix, Ajout, Corrections, QA... Il faut aussi énumérer les sections du projet qui ont été modifiées. 
+Le sujet doit décrire un type d'action: Modification, Refactorisation, Bugfix, Ajout, QA, Correction, Retrait... Il faut aussi énumérer la section du projet qui ont été modifiées. 
+
+Un commit ne doit pas comporter plusieurs types de changement. Par exemple, on ne met pas dans le même commit la modification de la page d'accueil et le bugfix du formulaire de contact.
+
+Avec de bons messages de commits, il est possible de lire le log de commits et de connaître rapidement l'historique des modifications. On peut ainsi retrouver le commit du popup de Noël de l'an dernier pour le remettre en place au prochain Noël. Il n'y a plus besoin de commenter du code de manière temporaire. On peut retrouver le commit où il a été enlevé en cherchant "popup" ou "Noël" dans les messages de commit.
 
 ## Versionnement des projets/releases
 
