@@ -4,7 +4,7 @@ L'intégration continue mise en place pour le moment consiste seulement à une m
 
 ## Fonctionnement
 
-Pour publier une nouvelle version du site, il faut déplacer le tag correspondant en faisant `git tag -a -f <environment> <commit>` où `<environment>` correspond soit à preprod ou production et `<commit>` à l'identifiant hexadécimal du commit qui est la nouvelle version du preprod.
+Pour publier une nouvelle version du site, il faut déplacer le tag correspondant en faisant `git tag -a -f <environment> <commit>` où `<environment>` correspond soit à preprod ou prod et `<commit>` à l'identifiant hexadécimal du commit qui est la nouvelle version du preprod.
 
 Le serveur se charge de vérifier si une nouvelle version du site est publiée toutes les minutes et fera la mise à jour le cas échéant.
 
@@ -25,21 +25,24 @@ Le fichier `index.php` du site doit se retrouver dans un dossier `public_html` s
     <pre>
     cd ~/.ssh && ssh-keygen 
     //github_rsa pour le nom de clé 
-    cat ~/.ssh/github_rsa.pub
-</pre>
+    </pre>
+2.  Copier la clé publique:
+        <pre>
+        cat ~/.ssh/github_rsa.pub
+    </pre>
 
-2. Aller sur Github dans le repo du projet, ensuite Settings, puis Deploy keys et cliquer sur Add new. Utiliser le nom de l'environnement (preprod, production) comme nom et coller le contenu copié avec la commande `cat`.
+3. Aller sur Github dans le repo du projet, ensuite Settings, puis Deploy keys et cliquer sur Add new. Utiliser le nom de l'environnement (preprod, prod) comme nom et coller le contenu copié avec la commande `cat`.
 
-3. Retourner dans le terminal du cPanel
+4. Retourner dans le terminal du cPanel
    <pre>nano ~/.ssh/config</pre>
-4. Coller, sauvegarder (`Ctrl+O`) et quitter (`Ctrl+X`)
+5. Coller, sauvegarder (`Ctrl+O`), enter et quitter (`Ctrl+X`)
     <pre>Host git
       Hostname github.com
       User git
       IdentityFile ~/.ssh/github_rsa</pre>
-5. Tester la connexion : `ssh git`.
-6. Initialiser git sur le serveur : `git init`
-7. Configurer les excludes pour les fichiers cPanel : `nano .git/info/exclude`
+6. Tester la connexion : `ssh git`. *À la question "Are you sure...", répondre Yes.*
+7. Se mettre dans le bon dossier avec `cd` et initialiser git sur le serveur : `git init`
+8. Configurer les excludes pour les fichiers cPanel : `nano .git/info/exclude`
    <pre>
     .*
     access-logs
@@ -53,13 +56,57 @@ Le fichier `index.php` du site doit se retrouver dans un dossier `public_html` s
     var
     www
     cpbackup-exclude.conf
+    .my.conn.cnf
     //Autre fichiers/dossiers selon le projet
     </pre>
     Puis, sauvegarder (`Ctrl+O`) et quitter (`Ctrl-X`).
-8. Ajouter le repo Github : 
-`git remote add origin git:path/to/the/repository.git`
-9. Exécuter `~/bin/deploy.sh <environment>` et vérifier que le site est fonctionnel
-10. Mettre en place la cronjob dans cPanel/Cron Jobs, sélectionner à chaque minute : `~/bin/deploy.sh <environment>`
+9. Ajouter le repo Github : 
+`git remote add origin git:path/to/the/repository.git`. _L'url de Github doit être modifiée pour retirer **@github**._
+1. Exécuter `git fetch --tags -f;` et `git checkout tags/<environment>;` et vérifier que le site est fonctionnel
+2.  Mettre en place la cronjob dans cPanel/Cron Jobs, sélectionner à chaque minute : `~/bin/deploy.sh <environment>`
+
+## Récupération de la base de données live
+
+### Configurer le user MySQL sur le serveur
+
+https://dev.mysql.com/doc/refman/8.0/en/option-files.html
+
+Dans le dossier du git, 
+
+`nano .my.conn.cnf`
+<pre>
+[client]
+user=ton-username-mysql
+password=UNbonPASSWORD
+host=192.168.0.233
+port=3306
+
+[mysql]
+database=DATABASE_NAME
+</pre>
+Puis, sauvegarder (`Ctrl+O`) et quitter (`Ctrl-X`).
+
+`chmod 600 .my.conn.cnf`
+
+Tester `mysql --defaults-extra-file=.my.conn.cnf`, puis entrer `exit` pour quitter mysql.
+
+### Exporter la base de données
+
+D'abord naviguer dans le dossier de l'environnement où on doit exporter la base de données.
+
+`mysqldump --defaults-extra-file=.my.conn.cnf --add-drop-table DATABASE_NAME > db-export.sql`
+
+### Importer la base de données
+
+D'abord naviguer dans le dossier de l'environnement où on doit importer la base de données et ajuster le chemin vers le fichier exporté précédemment. 
+
+`mysql --defaults-extra-file=.my.conn.cnf DATABASE < ../db-export.sql`
+
+## Récupérer les uploads
+
+Pour synchroniser les uploads de production vers preprod, on utilise `rsync`. Il faut enlever le n dans les flags après avoir fait un dry-run pour que le transfert soit vraiment effectué. 
+
+`rsync -avn --delete "./uploads/" "./preprod/uploads/"`
 
 ## Annexes
 
