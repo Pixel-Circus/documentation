@@ -1,6 +1,6 @@
 # Configuration des projets pour l'intégration continue
 
-L'intégration continue mise en place pour le moment consiste seulement à une mise à jour automatique des fichiers source à partir de Git. Git doit contenir tous les fichiers incluant les fichiers générés ou vendor nécessaires au fonctionnement du site sur le serveur preprod/live excluant les uploads et tout autre fichier lié à la base de donnée.
+L'intégration continue mise en place pour le moment consiste seulement à une mise à jour automatique des fichiers source à partir de Git. Git doit contenir tous les fichiers incluant les fichiers générés ou vendor nécessaires au fonctionnement du site sur le serveur preprod/live excluant les uploads et tout autre fichier lié à la base de données.
 
 ## Fonctionnement
 
