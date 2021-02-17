@@ -4,11 +4,11 @@
 
 Tous les commits doivent contenir un message descriptif de ce qui a été fait.
 
-Voici un article qui décrit comment formatter un [message de commit pertinent](https://blog.stack-labs.com/code/git_perfect_commit_message/).
+Voici un article qui décrit comment formater un [message de commit pertinent](https://blog.stack-labs.com/code/git_perfect_commit_message/).
 
 La première ligne est réservée au sujet qui doit décrire brièvement le contenu du commit. Il est possible d'ajouter une description plus longue après un retour à la ligne.
 
-Le sujet doit décrire un type d'action: Modification, Refactorisation, Bugfix, Ajout, QA, Correction, Retrait... Il faut aussi énumérer la section du projet qui ont été modifiées. 
+Le sujet doit décrire un type d'action: Modification, Refactorisation, Bugfix, Ajout, QA, Correction, Retrait... Il faut aussi énumérer les sections du projet qui ont été modifiées. 
 
 Un commit ne doit pas comporter plusieurs types de changement. Par exemple, on ne met pas dans le même commit la modification de la page d'accueil et le bugfix du formulaire de contact.
 
