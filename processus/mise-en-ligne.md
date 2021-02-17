@@ -15,7 +15,7 @@ La majorité de nos sites sont hébergés sur un serveur géré par Marc-André.
 
 ## Configuration preprod
 
-Un [compte cPanel est créé](creation-compte-cpanel.html) pour chaque environnement dans le WHM en utilisation un sous-domaine du domaine pixelcircusclient.com. Une fois le compte créé, il faut configurer l'intégration continue pour que les mises en ligne soient automatique.
+Un [compte cPanel est créé](creation-compte-cpanel.html) pour chaque environnement dans le WHM en utilisant un sous-domaine du domaine pixelcircusclient.com. Une fois le compte créé, il faut configurer l'intégration continue pour que les mises en ligne soient automatique.
 
 Il faut ensuite ajouter l'entrée DNS dans Cloudflare pour le nouveau sous-domaine pixelcircusclient.com qui a été créé. L'adresse IP est affichée sur la page d'accueil du cPanel.
 
@@ -27,7 +27,7 @@ Dans le htaccess, il est possible de changer la version PHP utilisée par l'envi
 
 `AddType application/x-lsphp72 .php`
 
-Les 2 chiffres représentants la version PHP voulue. _Cette version de PHP n'utilise pas les configurations dans le cPanel._
+Les 2 chiffres représentent la version PHP voulue. _Cette version de PHP n'utilise pas les configurations dans le cPanel._
 
 **Ne jamais utiliser pour l'environnement de production** Il faut plutôt changer la valeur dans le sélecteur PHP du cPanel.
 
