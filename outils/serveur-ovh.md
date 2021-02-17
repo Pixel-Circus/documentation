@@ -22,4 +22,4 @@ Dans le menu Tools, choisir File Manager. Les fichiers pour les sites sur le ser
 3. S'assurer de mettre le root dans `/var/www` comme pour les autres sites.
 5. Se connecter sur le compte sur le site d'OVH
 6. Ajouter le nouveau nom de domaine à leur zone DNS
-7. Faire pointer le nom de domaine chez le régistraire/gestionnaire de DNS vers l'adresse IP du serveur
+7. Faire pointer le nom de domaine chez le registraire/gestionnaire de DNS vers l'adresse IP du serveur
