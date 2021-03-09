@@ -5,55 +5,35 @@
 - [ ] Search Console
 - [ ] Google Tag Manager
 - [ ] Google Analytics
-
-
 ## Serveurs et hébergement
 
-## Connection au serveur
+La majorité de nos sites sont hébergés sur un serveur géré par Marc-André. C'est un serveur avec CloudLinux, WHM et cPanel.
+
+## Connection au serveur 
+
+[Se connecter au serveur en SSH](connection-ssh-serveur.html)
 
 ## Configuration preprod
 
-TODO:
+Un [compte cPanel est créé](creation-compte-cpanel.html) pour chaque environnement dans le WHM en utilisant un sous-domaine du domaine pixelcircusclient.com. Une fois le compte créé, il faut configurer l'intégration continue pour que les mises en ligne soient automatique.
 
-Créer un accès Git pour le preprod: 
-<pre>
-cd ~/.ssh && ssh-keygen //github_rsa pour le nom de clé 
-cat ~/.ssh/github_rsa.pub
-coller le contenu sur github
-nano ~/.ssh/config
-> Host git
-   Hostname (l'URL du fournisseur - i.e. gitlab.com)
-   User git
-   IdentityFile ~/.ssh/(ta clé privée - soit celle sans extension)
+Il faut ensuite ajouter l'entrée DNS dans Cloudflare pour le nouveau sous-domaine pixelcircusclient.com qui a été créé. L'adresse IP est affichée sur la page d'accueil du cPanel.
 
-//test 
-ssh git
-//Setup repo git
-git init
+Voir [Configuration de l'intégration continue](configuration-integration-continue.html).
 
-nano .git/info/exclude
-.*
-access-logs
-cache
-concours.patrimoine-religieux.qc.ca
-etc
-logs
-mail
-public_ftp
-ssl
-tmp
-var
-www
-cpbackup-exclude.conf
+### Changement de version PHP pour les environnements de développement
 
-git remote add origin git:path/to/the/repository.git
+Dans le htaccess, il est possible de changer la version PHP utilisée par l'environnement de développement avec cette ligne : 
 
-git pull --track origin preprod
-</pre>
+`AddType application/x-lsphp72 .php`
+
+Les 2 chiffres représentent la version PHP voulue. _Cette version de PHP n'utilise pas les configurations dans le cPanel._
+
+**Ne jamais utiliser pour l'environnement de production** Il faut plutôt changer la valeur dans le sélecteur PHP du cPanel.
 
 ## Automatisation
 
-Marc-andré devrait nous faire un script qui permet rapidement de importer de Productiona stage et l'inverse.
+Voir [Configuration de l'intégration continue](configuration-integration-continue.html).
 
 ## Wordpress
 
