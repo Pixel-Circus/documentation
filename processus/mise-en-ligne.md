@@ -7,7 +7,28 @@
 - [ ] Google Analytics
 ## Serveurs et hébergement
 
-La majorité de nos sites sont hébergés sur un serveur géré par Marc-André. C'est un serveur avec CloudLinux, WHM et cPanel.
+## Mise en ligne via GitHub
+Les sites utilisant cette technique sont présentement rares, mais ça deviendra la norme tranquillement mais sûrement.
+ 
+Les projets l'utilisant auront mention de ceci dans leur aide mémoire, mais si le projet en cours à une branche `develop` les chances sont qu'elles utilisent cette technique.
+ 
+Donc quand on développe avec cette technique de mise en ligne, on branche pour notre modification à partir de `develop`, qui est la version 'en développement'.
+ 
+Ensuite on développe sa nouvelle fonctionnalité, et quand c'est prêt aller sur le serveur Stage modifier la branche utilisée. Cela mettra à jour le code utilisé en stage pour pouvoir montrer au client.
+ 
+TODO: Expliquer comment aller changer ce head.
+ 
+Lorsque tout est confirmé et prêt à la mise en ligne, faire un Pull Request qui merge sa modification sur `develop`, et ensuite sur `master` ou `main`. Ce Pull Request amènera le nouveau code en ligne.
+ 
+### Hotfix
+ 
+Lorsque une modification doit être faite expressément (on parle ici d'une urgence, qui ne passerait pas par approbation), on peut faire un Hotfix.
+ 
+Dans un hotfix, on branche le `master`/`main` fait la modif, et Pull Request dans `master`/`main`.
+ 
+Ensuite, quand tout est bon, Pull sa branche dans `develop` pour mettre le bug fix dans la version développement aussi.
+ 
+Cette option est vraiment uniquement pour les bugs qui doivent être corrigés expressément. A utiliser seulement en cas d'urgence.
 
 ## Connection au serveur 
 
