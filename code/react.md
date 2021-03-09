@@ -28,7 +28,7 @@ Les modules dans components ne devraient pas appeler d'autres components.
 Chaque module est contenu dans son propre dossier, contenant le JS du module, et le SCSS de tout ce qui est relié à ce module.
 
 ### /container/
-Contient des modules moyens, qui sont une combinaison de modules trouvés sous components. Choses de l'ampleur de listes ou formulaires.
+Contient des modules moyens. La différence majeure avec les components c'est que les containers doivent travailler avec leur propre States (alors que les components se font uniquement passer des props et si ils ont des choses qui changent, le state est géré ailleurs)
 
 ### /templates/
 Même structure que les modules, mais ici c'est des pages entières, bâties via des modules de components/containers. C'est aussi dans ces fichiers que seront gérés les appels nécessaires via axiom et les setups généraux de page.
