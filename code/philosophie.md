@@ -10,6 +10,14 @@ Il ne faut créer une nouvelle solution qu'en dernière mesure.
 
 L'interface de gestion du client devrait être la plus simple possible à gérer. Les éléments doivent être utilisés pour leur utilisation normale. Une page est une page, et n'est pas faite pour être uniquement composante d'une autre page, par exemple.
 
+### Exemple de chose déjà vue dans d'autres projets, à ne pas répliquer
+
+Sur l'accueil, il y a 3 vignettes sans lien. L'intégrateur avait créé 3 sous pages à la page d'accueil qui ne faisaient que contenir les contenus des 3 vignettes. Ces pages n'avaient aucune autre utilité que cela, et bien qu'elles soient dans la sitemap (et accessibles via l'URL directe) ces pages étaient inutiles.
+
+La solution: Faire un custom field pour les vignettes.
+
+TBD: Mon style je préfère avoir les contenus de l'accueil dans l'accueil. Certains autres, si mettons la vignette a un lien et réfère à la page disons À propos, metterais les infos de la vignette dans la sous page meme si cette info est affichée sur l'accueil. À set down ou on laisse a l'intégrateur le soin de décider?
+
 # Le filet de sécurité
 
 Le client, en faisant ses modifications, ne devrait pas pouvoir accidentellement causer un bug massif de son site. Les éléments comme les repeater ou les images devraient avoir un fallback ou disparaître sans problème s'ils sont laissés vides.
