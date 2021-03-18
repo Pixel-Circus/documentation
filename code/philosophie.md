@@ -16,8 +16,6 @@ Sur l'accueil, il y a 3 vignettes sans lien. L'intégrateur avait créé 3 sous 
 
 La solution: Faire un custom field pour les vignettes.
 
-TBD: Mon style je préfère avoir les contenus de l'accueil dans l'accueil. Certains autres, si mettons la vignette a un lien et réfère à la page disons À propos, metterais les infos de la vignette dans la sous page meme si cette info est affichée sur l'accueil. À set down ou on laisse a l'intégrateur le soin de décider?
-
 # Le filet de sécurité
 
 Le client, en faisant ses modifications, ne devrait pas pouvoir accidentellement causer un bug massif de son site. Les éléments comme les repeater ou les images devraient avoir un fallback ou disparaître sans problème s'ils sont laissés vides.
