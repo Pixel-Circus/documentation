@@ -86,7 +86,7 @@ En plus de retourner l'objet Pages, `manage_pages();` définit plusieurs variabl
 *   $title_tag
 *   $meta_description
 
-Ces variables sont expliqués dans [l'article sur l'intégration](09-integration.html).
+Ces variables sont expliqués dans [l'article sur l'intégration](09-integration).
 
 #### View page-templates/default
 
@@ -105,7 +105,7 @@ Ce sont ces variables qui rendent la réutilisation du template pour plusieurs t
 
 ### `route`, ou fonctionnalité
 
-Grâce au champ `route`, il est possible de définir un autre controller pour l'affichage d'une page et ainsi d'y ajouter du code particulier, généralement un formulaire ou une liste. Voir [le routing](05-routing.html) pour une description du fonctionnement.
+Grâce au champ `route`, il est possible de définir un autre controller pour l'affichage d'une page et ainsi d'y ajouter du code particulier, généralement un formulaire ou une liste. Voir [le routing](05-routing) pour une description du fonctionnement.
 
 Pour que le nouveau controller puisse bénéficier de la définition automatique de certaines variables pour l'affichage, il est recommandé d'insérer cette ligne dans la méthode du controller de la fonctionnalité:
 

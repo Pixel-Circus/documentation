@@ -1,0 +1,98 @@
+{
+  "main": {
+    "id": "f3fc0aecdcf0a342",
+    "type": "split",
+    "children": [
+      {
+        "id": "ecd2e7bf130beb19",
+        "type": "leaf",
+        "active": true,
+        "pinned": true,
+        "state": {
+          "type": "graph",
+          "state": {},
+          "pinned": true
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "64a8f4a1d8aa7fa5",
+    "type": "split",
+    "children": [
+      {
+        "id": "a90a3566f6c245a3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "80b189cde6976166",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "902b56bfab490064",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "f44c707e2d98285b",
+    "type": "split",
+    "children": [
+      {
+        "id": "187d5c3ac587115f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "463b00fc55a58b21",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "lastOpenFiles": [
+    "index.md",
+    "outils/index.md",
+    "outils/Untitled.md",
+    "outils/visual-studio-code.md",
+    "projets/index.md",
+    "processus/mise-en-ligne.md",
+    "code/philosophies.md",
+    "projets/cybereco.md",
+    "outils/web2pdf.md",
+    "outils/serveur-ovh.md"
+  ]
+}

@@ -26,7 +26,7 @@ Le comportement par défaut d'un module backend consiste en un formulaire affich
 
 ### Modifier le formulaire
 
-Le module créé vient avec un formulaire générique pour des modules de contenu. Il est possible de modifier le formulaire en éditant le fichier de validation créé à l'étape précédente. Se référer à [la configuration des formulaires](17-formulaire.html) pour connaître les différents types de champs possibles. Dans le controller, c'est la méthode `details` qui s'occupe de l'affichage, de la validation et de la sauvegarde d'un formulaire.
+Le module créé vient avec un formulaire générique pour des modules de contenu. Il est possible de modifier le formulaire en éditant le fichier de validation créé à l'étape précédente. Se référer à [la configuration des formulaires](17-formulaire) pour connaître les différents types de champs possibles. Dans le controller, c'est la méthode `details` qui s'occupe de l'affichage, de la validation et de la sauvegarde d'un formulaire.
 
 ### Modifier l'objet avant de le sauvegarder
 

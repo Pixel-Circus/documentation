@@ -1,6 +1,6 @@
 # Installation et mise en ligne
 
-Voir la documentation sur les [mises en ligne et la création de preprods](/processus/mise-en-ligne.html) pour connaître comment procéder sur le serveur de Pixel Circus.
+Voir la documentation sur les [mises en ligne et la création de preprods](/processus/mise-en-ligne) pour connaître comment procéder sur le serveur de Pixel Circus.
 
 Configuration de la DB et de l'environnement
 --------------------------------------------

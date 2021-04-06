@@ -17,12 +17,14 @@
 
 `**` Cette page est à compléter.
 
+- [Information Générale](README)
+
 ## Code
 - [* Accessibilité](code/accessibilite)
 - [* Bootstrap](code/bootstrap)
 - [* Gestion des données](code/gestion-des-donnees)
 - [** Performance](code/performance)
-- [Philosophies](code/philosophies)
+- [Philosophies](code/philosophie)
 - [** React](code/react)
 
 ### Librairies courantes
@@ -37,12 +39,15 @@
 
 ### WordPress
 - [Wordpress](code/wordpress)
+- [Includes](code/wordpress-includes)
+- [Functions](code/wordpress-functions-php)
 - [Typerocket](code/typerocket)
 - [Lightspeed Cache](code/wp-plugin-litespeed-cache)
 - [Wordfence](code/wp-plugin-wordfence)
 
 ### Legacy
 - [CodeIgniter](code/codeigniter)
+- [pixms1](code/legacy/pixms1/index)
 
 ## Outils
 
@@ -56,6 +61,8 @@
 - [Versionnement](outils/versionnement)
 - [Visual Studio Code](outils/visual-studio-code)
 - [* Webpack](outils/webpack)
+- [Serveur OVH](outils/serveur-ovh)
+- [Configuration Serveur](outils/configuration-serveur)
 
 ## Processus
 

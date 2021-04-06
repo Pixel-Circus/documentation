@@ -32,15 +32,15 @@ Cette option est vraiment uniquement pour les bugs qui doivent être corrigés e
 
 ## Connection au serveur 
 
-[Se connecter au serveur en SSH](connection-ssh-serveur.html)
+[Se connecter au serveur en SSH](connection-ssh-serveur)
 
 ## Configuration preprod
 
-Un [compte cPanel est créé](creation-compte-cpanel.html) pour chaque environnement dans le WHM en utilisant un sous-domaine du domaine pixelcircusclient.com. Une fois le compte créé, il faut configurer l'intégration continue pour que les mises en ligne soient automatique.
+Un [compte cPanel est créé](creation-compte-cpanel) pour chaque environnement dans le WHM en utilisant un sous-domaine du domaine pixelcircusclient.com. Une fois le compte créé, il faut configurer l'intégration continue pour que les mises en ligne soient automatique.
 
 Il faut ensuite ajouter l'entrée DNS dans Cloudflare pour le nouveau sous-domaine pixelcircusclient.com qui a été créé. L'adresse IP est affichée sur la page d'accueil du cPanel.
 
-Voir [Configuration de l'intégration continue](configuration-integration-continue.html).
+Voir [Configuration de l'intégration continue](configuration-integration-continue).
 
 ### Changement de version PHP pour les environnements de développement
 
@@ -54,7 +54,7 @@ Les 2 chiffres représentent la version PHP voulue. _Cette version de PHP n'util
 
 ## Automatisation
 
-Voir [Configuration de l'intégration continue](configuration-integration-continue.html).
+Voir [Configuration de l'intégration continue](configuration-integration-continue).
 
 ## Wordpress
 

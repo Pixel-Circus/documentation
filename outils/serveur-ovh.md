@@ -1,4 +1,4 @@
-Un serveur dev a été configuré chez OVH. C'est un serveur Ubuntu. Il est notamment utilisé pour l'outil de génération PDF [Web2PDF](web2pdf.html).
+Un serveur dev a été configuré chez OVH. C'est un serveur Ubuntu. Il est notamment utilisé pour l'outil de génération PDF [Web2PDF](web2pdf).
 
 Sur le serveur, [Webmin](https://doxfer.webmin.com/Webmin/Main_Page) a été installée pour son administration. C'est une alternative gratuite à cPanel. Les accès pour le Webmin sont dans le document d'accès de Pixel Circus.
 

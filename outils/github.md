@@ -16,6 +16,6 @@ Avec de bons messages de commits, il est possible de lire le log de commits et d
 
 ## Versionnement des projets/releases
 
-TBD (**Majeur.Mineur.BugFix** ou Date YYYY.MM.DD?) (ici ou garder dans [versionnement](versionnement/#releases-tags)?)
+TBD (**Majeur.Mineur.BugFix** ou Date YYYY.MM.DD?) (ici ou garder dans [versionnement](versionnement#releases-tags)?)
 
 [Semver](https://semver.org/)
