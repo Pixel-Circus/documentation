@@ -71,8 +71,8 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": false
               }
             }
           }
@@ -85,14 +85,14 @@
   },
   "lastOpenFiles": [
     "index.md",
-    "outils/index.md",
+    "processus/index.md",
     "outils/Untitled.md",
+    "code/Untitled.md",
+    "outils/index.md",
     "outils/visual-studio-code.md",
     "projets/index.md",
     "processus/mise-en-ligne.md",
     "code/philosophies.md",
-    "projets/cybereco.md",
-    "outils/web2pdf.md",
-    "outils/serveur-ovh.md"
+    "projets/cybereco.md"
   ]
 }
