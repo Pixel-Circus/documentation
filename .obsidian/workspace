@@ -4,14 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "ecd2e7bf130beb19",
+        "id": "20a2cbde195230d1",
         "type": "leaf",
         "active": true,
-        "pinned": true,
         "state": {
           "type": "graph",
-          "state": {},
-          "pinned": true
+          "state": {}
         }
       }
     ],
@@ -39,7 +37,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "\\\\",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -48,7 +46,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -72,7 +71,7 @@
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "backlinkCollapsed": true,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               }
             }
           }
@@ -84,15 +83,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "index.md",
-    "processus/index.md",
-    "outils/Untitled.md",
-    "code/Untitled.md",
-    "outils/index.md",
-    "outils/visual-studio-code.md",
+    "outils/obsidian.md",
+    "code/markdown.md",
+    "projets/_projets.md",
     "projets/index.md",
-    "processus/mise-en-ligne.md",
-    "code/philosophies.md",
-    "projets/cybereco.md"
+    "code/legacy/pixms1/_pixms1.md",
+    "code/legacy/pixms1/index.md",
+    "code/index.md",
+    "outils/index.md",
+    "processus/index.md",
+    "processus/Fonts.md"
   ]
 }

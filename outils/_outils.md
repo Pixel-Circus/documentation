@@ -9,6 +9,7 @@
 - [Slack](outils/slack)
 - [Versionnement](outils/versionnement)
 - [Visual Studio Code](outils/visual-studio-code)
+- [Obsidian](outils/obsidian)
 - [* Webpack](outils/webpack)
 - [Serveur OVH](outils/serveur-ovh)
 - [Configuration Serveur](outils/configuration-serveur)

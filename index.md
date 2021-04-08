@@ -18,7 +18,7 @@
 `**` Cette page est à compléter.
 
 - [Information Générale](README)
-- [Code](code/index)
-- [Outils](outils/index)
-- [Processus](processus/index)
-- [Aide mémoire pour les projets](projets/index)
+- [Code](_code.md)
+- [Outils](_outils.md)
+- [Processus](_processus.md)
+- [Aide mémoire pour les projets](_projets.md)

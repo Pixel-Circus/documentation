@@ -4,6 +4,7 @@
 - [** Performance](code/performance)
 - [Philosophies](code/philosophie)
 - [** React](code/react)
+- [Markdown](code/markdown)
 
 ### Librairies courantes
 - [* Librairies JS](code/librairies-js)
@@ -25,4 +26,4 @@
 
 ### Legacy
 - [CodeIgniter](code/codeigniter)
-- [pixms1](code/legacy/pixms1/index)
+- [pixms1](_pixms1.md)

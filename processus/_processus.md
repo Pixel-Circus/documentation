@@ -1,3 +1,4 @@
+
 ## Processus
 
 ### * À classer  
@@ -12,7 +13,7 @@
 #### Local/Dev
 - [Installation d'un site sur son poste](processus/installation-en-local)
 - [Création d'un nouveau site Wordpress](processus/creation-nouveau-site-wp.md)
-- [Ajout de fontes au projet](processus/fonts)
+- [Ajout de fontes au projet](fonts.md)
 
 #### Mise en stage/production
 - [Connexion au serveur via SSH](processus/connection-ssh-serveur)
