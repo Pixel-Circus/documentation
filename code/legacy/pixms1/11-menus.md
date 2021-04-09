@@ -25,7 +25,7 @@ Pour afficher ce menu, il faut insérer dans la view appropriée cette ligne de 
 
 L'exemple ci-dessous crée un lien vers l'accueil. Voici un aperçu des clés de configuration possible pour créer les items de menu:
 
-*   **href:** Le lien vers la page. Voir l'article sur [la génération de liens](08-liens.html).
+*   **href:** Le lien vers la page. Voir l'article sur [la génération de liens](08-liens).
 *   **lang:** La chaîne de traduction à utiliser. Sera passé dans la fonction `lang`.
 *   **name:** Le label pour le lien (non traduisible).
 *   **active:** Un array contenant des groupes controller/method pour lequel le menu est considéré actif. La classe « active » sera ajoutée à l'item.

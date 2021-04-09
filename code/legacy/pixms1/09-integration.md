@@ -9,11 +9,11 @@ Ce dossier contient des librairies JS/CSS provenant du web (third party) comme j
 
 ### js
 
-Ce dossier contient les fichiers JS pour le projet. Ils sont séparés par [contexte](02-contextes.html). Dans le dossier frontend, il est possible de retrouver des fichiers nommés **functions.js** et **main.js**. Ces fichiers sont globaux à tout le site. Les autres fichiers suivent généralement la nomenclature **controller.js** ou **controller-method.js**. Par exemple, si le fichier JS est utilisé sur une page du controller Events, le fichier se nommera events.js.
+Ce dossier contient les fichiers JS pour le projet. Ils sont séparés par [contexte](02-contextes). Dans le dossier frontend, il est possible de retrouver des fichiers nommés **functions.js** et **main.js**. Ces fichiers sont globaux à tout le site. Les autres fichiers suivent généralement la nomenclature **controller.js** ou **controller-method.js**. Par exemple, si le fichier JS est utilisé sur une page du controller Events, le fichier se nommera events.js.
 
 ### scss
 
-Ce dossier contient les fichiers SCSS pour le projet. Ils sont séparés par [contexte](02-contextes.html) et le CSS est généré dans le dossier _css_.
+Ce dossier contient les fichiers SCSS pour le projet. Ils sont séparés par [contexte](02-contextes) et le CSS est généré dans le dossier _css_.
 
 Des fonctions et des mixins globales sont définies dans scss/_helpers.scss. Voir ci-dessous la documentation de ce fichier.
 
@@ -38,7 +38,7 @@ Contient les controllers. Pour identifier le controller et la méthode utilisés
 
 ### application/language
 
-Contient les traductions du site. Voir l'article sur la [gestion des langues](06-langues.html).
+Contient les traductions du site. Voir l'article sur la [gestion des langues](06-langues).
 
 ### application/helpers
 
@@ -75,13 +75,13 @@ Fonctions utiles
 *   **Pixms::add_breadcrumb($url, $title);**  
     Ajoute un item au breadcrumb.
 *   **lang();** 
-    Permet de [traduire des chaînes de texte litérales](06-langues.html).
+    Permet de [traduire des chaînes de texte litérales](06-langues).
 *   **$this->load->view(« view », array(), false);  **
-    Permet de charger une view. Le premier paramètre est relatif au [contexte actuel](02-contextes.html), c'est-à-dire « application/views/frontend » dans la plupart des cas. Le second paramètre (facultatif) est un array de variables à définir pour le chargement de cette view. Par exemple, `array('display_image' => true);` définit une variable `$display_image` dans la view chargée. Le troisième paramètre (facultatif) permet de retourner la view en string si on y passe `true` au lieu de faire un `echo`.
+    Permet de charger une view. Le premier paramètre est relatif au [contexte actuel](02-contextes), c'est-à-dire « application/views/frontend » dans la plupart des cas. Le second paramètre (facultatif) est un array de variables à définir pour le chargement de cette view. Par exemple, `array('display_image' => true);` définit une variable `$display_image` dans la view chargée. Le troisième paramètre (facultatif) permet de retourner la view en string si on y passe `true` au lieu de faire un `echo`.
 *   **base_url($path);**  
     Génère une URL en combinant l'URL de base au `$path` fourni en paramètre. L'URL de base étant composée du nom de domaine et des sous-dossiers (s'il y a lieu).
 *   **url($controller, $method, $parametres, $context, $lang);**  
-    C'est la fonction utilisée pour générer des liens vers des méthodes de controllers. [Voir la documentation sur la gestion des langues.](06-langues.html)
+    C'est la fonction utilisée pour générer des liens vers des méthodes de controllers. [Voir la documentation sur la gestion des langues.](06-langues)
 *   **site_url(\$path);**  
     Fonctionne comme base_url();, mais en ajoutant la langue en préfixe au `$path` fournit.
 *   **LANG**  
@@ -89,7 +89,7 @@ Fonctions utiles
 *   **$this->load->view('parts/menu', array('menu' =>  $top_menu));**  
     Génère un menu à partir d'un configuration.  
 *   **switch_anchor();**  
-    Génère le/les lien(s) pour le [changement de langue](06-langues.html).
+    Génère le/les lien(s) pour le [changement de langue](06-langues).
 
 Variables existantes par défaut dans les views
 ----------------------------------------------

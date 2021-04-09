@@ -18,7 +18,7 @@ Le fichier de configuration pages_routes.php (application/config/pages_routes.ph
         'active' => array(),
     ),
 
-La clé correspond à « controller/method », il pourrait y avoir un 3e segment (exemple: « events/index/upcoming »). « upcoming » serait passé en tant que paramètre à la méthode « index ». « lang » ci-dessus correspond à la [chaîne de traduction](06-langues.html) utilisée dans l'admin pour l'affichage de la fonctionnalité. « active » correspond au « active » utilisé dans les menus.
+La clé correspond à « controller/method », il pourrait y avoir un 3e segment (exemple: « events/index/upcoming »). « upcoming » serait passé en tant que paramètre à la méthode « index ». « lang » ci-dessus correspond à la [chaîne de traduction](06-langues) utilisée dans l'admin pour l'affichage de la fonctionnalité. « active » correspond au « active » utilisé dans les menus.
 
 ### Les routes additionnelles d'une fonctionnalité
 
@@ -38,7 +38,7 @@ La clé dans les « additional_routes » reprend le fonctionnement des routes de
 Traduction des URLs
 -------------------
 
-Le système de traduction des URLs présent dans Pixms permet de traduire les routes du format controller/method vers des termes dans la langue actuelle. Pour connaître le fonctionnement, se référer à la documentation sur [le multilingue dans Pixms](06-langues.html).
+Le système de traduction des URLs présent dans Pixms permet de traduire les routes du format controller/method vers des termes dans la langue actuelle. Pour connaître le fonctionnement, se référer à la documentation sur [le multilingue dans Pixms](06-langues).
 
 Routing de CodeIgniter
 ----------------------

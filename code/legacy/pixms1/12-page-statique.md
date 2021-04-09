@@ -16,7 +16,7 @@ Pour créer un controller, il suffit de créer un nouveau fichier dans le dossie
 
 ### Créer la méthode
 
-Un controller seul ne sert pas à grand chose. Il faut lui ajouter des méthodes qui sont responsables de l'affichage de la page. Dans ce cas-ci, on peut utiliser « index » comme nom de méthode puisque la page qui sera affichée est la page principale de ce controller (Se référer à l'[article sur l'intégration](09-integration.html) pour comprendre les 3 lignes de la méthode):
+Un controller seul ne sert pas à grand chose. Il faut lui ajouter des méthodes qui sont responsables de l'affichage de la page. Dans ce cas-ci, on peut utiliser « index » comme nom de méthode puisque la page qui sera affichée est la page principale de ce controller (Se référer à l'[article sur l'intégration](09-integration) pour comprendre les 3 lignes de la méthode):
 
     public function index()
     {
@@ -89,7 +89,7 @@ Pour créer un lien vers la page contact, dans la sidebar par exemple, il faut u
 Rendre la page multilingue
 --------------------------
 
-Pour une description en détails des fonctionnalités multilingues de Pixms, [voir cet article](06-langues.html).
+Pour une description en détails des fonctionnalités multilingues de Pixms, [voir cet article](06-langues).
 
 ### Créer les fichiers de langue pour chaque langue
 

@@ -27,7 +27,7 @@ Fonctionne comme base_url();, mais en ajoutant la langue en préfixe au `$path` 
 url($controller, $method, $parametres, $context, $lang);
 --------------------------------------------------------
 
-C'est la fonction utilisée pour générer des liens vers des méthodes de controllers. [Voir la documentation sur la gestion des langues](06-langues.html) pour comprendre son fonctionnement quant à la traduction des URLs entre les langues et selon la fonctionnalité des pages.
+C'est la fonction utilisée pour générer des liens vers des méthodes de controllers. [Voir la documentation sur la gestion des langues](06-langues) pour comprendre son fonctionnement quant à la traduction des URLs entre les langues et selon la fonctionnalité des pages.
 
 Elle accepte jusqu'à 5 paramètres:
 
