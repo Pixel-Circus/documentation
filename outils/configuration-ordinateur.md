@@ -5,16 +5,17 @@
 ### Tous
 
 - [Filezilla](https://filezilla-project.org/)
+	- [Pour se connecter au Serveur des sites](processus/connection-ssh-serveur)
+- [Slack](outils/slack) (Facultatif, mais préférable d'avoir l'App)
 ### Mac
 
-- [MAMP](https://www.mamp.info)
+- [MAMP](outils/serveur-local#mamp)
 - [SourceTree](https://www.sourcetreeapp.com/)
-- [XCode](https://developer.apple.com/xcode/) (Facultatif, mais aide pour ne pas avoir d'erreur dans les CLI)
-- [SequelPro](https://www.sequelpro.com/) (Facultatif, permet de facilement gérer des grosses DB)
+- [SequelPro](outils/sequel-pro) (Facultatif, permet de facilement gérer des grosses DB)
 
 ### Windows
 
-- [WampServer](https://www.wampserver.com)
+- [WampServer](outils/serveur-local#wampserver)
 
 ## NodeJS
 TODO

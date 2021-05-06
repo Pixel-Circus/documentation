@@ -1,6 +1,6 @@
 # Slack #
 
-Slack est pour la discussion rapide entre employés.
+[Slack](http://pixel-circus.slack.com/) est pour la discussion rapide entre employés.
 
 Si un point de modifications pour un client est discuté, le point devrait aussi être noté dans Asana pour que le suivi soit plus simple.
 

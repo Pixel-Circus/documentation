@@ -13,3 +13,4 @@
 - [* Webpack](outils/webpack)
 - [Serveur OVH](outils/serveur-ovh)
 - [Configuration Serveur](outils/configuration-serveur)
+- [Sequel Pro](outils/sequel-pro)
