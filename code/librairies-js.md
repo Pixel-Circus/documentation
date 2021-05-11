@@ -10,13 +10,13 @@ jQuery est inclus de base dans tous nos sites.
 ## Plugins reconnus
  
 ### Pageload en Ajax
-[Swup](https://swup.js.org/)
+[Barba](code/barba)
  
 ### Animations
-[Greensock](https://greensock.com/docs/v3)
+[Greensock](code/gsap)
  
-### Carrousels/Sliders *
-[Cycle Slideshow](http://jquery.malsup.com/cycle2/demo/carousel.php)
+### Carrousels/Sliders
+Utiliser Bootstrap
  
 ### Modals/Popups *
 [Fancybox](http://fancyapps.com/fancybox/3/)
@@ -26,4 +26,9 @@ jQuery est inclus de base dans tous nos sites.
 [Select2](https://select2.org/)
  
  
+## Legacy
+### Pageload en Ajax
+[Swup](https://swup.js.org/)
 
+### Carrousels/Sliders
+[Cycle Slideshow](http://jquery.malsup.com/cycle2/demo/carousel.php)
