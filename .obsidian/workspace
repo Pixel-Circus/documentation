@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "code/wordpress-functions-php.md",
+            "file": "code/gsap.md",
             "mode": "source"
           }
         }
@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "code/wordpress-functions-php.md",
+                "file": "code/gsap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,15 +101,15 @@
   },
   "active": "20a2cbde195230d1",
   "lastOpenFiles": [
+    "code/gsap.md",
+    "code/librairies-js.md",
+    "code/react.md",
     "code/wordpress-functions-php.md",
     "code/wordpress.md",
     "outils/visual-studio-code.md",
-    "code/librairies-js.md",
     "code/librairies-php.md",
     "code/Untitled.md",
-    "code/gsap.md",
     "Untitled.md",
-    "code/_code.md",
-    "outils/configuration-ordinateur.md"
+    "code/_code.md"
   ]
 }

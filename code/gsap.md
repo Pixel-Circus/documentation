@@ -50,3 +50,11 @@ Lorsque on anime des éléments, il est préférable d'utiliser des éléments q
 Alors éviter d'animer sur les paddings/margins, des tailles de textes, etc. et préférer les animations sur des choses comme transform et opacity.
 
 Aussi, au lieu d'utiliser Opacity, utiliser autoAlpha, qui va aussi `visibility:hidden` quand on est a opacité 0.
+
+### Optimisation du JS pour GSAP
+Plusieurs détails peuvent être optimisés.
+
+1 - Vérifier que il y a peu d'éléments qui trigger sur le scroll.
+2 - Faire attention. Toutes les modifications d'éléments coutent. Alors si, par exemple, on met une hauteur calculée a un événement, seulement la changer lorsque nécessaire. Même réassigner la même valeur coute du 'render time'.
+3 - Une autre chose qui coute est le chargement d'éléments. Alors simplement faire apparaitre une image (la faire débuter à `opacity:0` à `opacity:1`) causera un hang puisque Chrome ne load pas les images qui ne sont pas affichées d'emblée. Alors faire commencer les animations à partir d'un opacity très bas, mais pas 0. (Par exemple, 0.01)
+4- Il est préférable de ajouter un `will-change:transform` sur les éléments qui seront animés. Cela dit au navigateur de se préparer a un changement possible. [Mais il ne faut pas en abuser.](https://developer.mozilla.org/en-US/docs/Web/CSS/will-change)
