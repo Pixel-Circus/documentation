@@ -21,6 +21,7 @@
 - [Includes](code/wordpress-includes)
 - [Functions](code/wordpress-functions-php)
 - [Typerocket](code/typerocket)
+- [Typerocket - Pagebuilder](code/typerocket-pagebuilder)
 - [Lightspeed Cache](code/wp-plugin-litespeed-cache)
 - [Wordfence](code/wp-plugin-wordfence)
 
