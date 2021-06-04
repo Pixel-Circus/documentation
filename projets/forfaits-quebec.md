@@ -24,6 +24,11 @@ La transaction est ensuite traitée par le controller TypeRocket `App\Controller
 
 ### Cartes-cadeaux
 
+#### Numéros de cartes
+Si la carte débute par F: C'est un Forfait Cadeau (la carte contient un forfait et ne peut pas être utilisée pour autre chose que celui ci.)
+
+Si le numéro n'est pas pris par une des conditions plus haut, la carte est un Passeport Québec (carte cadeau pouvant être utilisée chez tous les partenaires.)
+
 #### Cartes virtuelles
 
 Lorsqu'une transaction est validée par Moneris, une commande est créée dans la base de données de Forfaits Québec. Une cronjob (`wp fq sendvirtualCards`) est exécutée toutes les quelques minutes et s'occupe de créer les cartes commandées et d'envoyer les cartes en version PDF à l'adresse courriel associée à la commande.

@@ -1,0 +1,93 @@
+{
+  "main": {
+    "id": "fb31d4757090b6ab",
+    "type": "split",
+    "children": [
+      {
+        "id": "1f456876b3119e4a",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "projets/forfaits-quebec.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d15bb7ae42c9442f",
+    "type": "split",
+    "children": [
+      {
+        "id": "9eec0b5737a828e3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "72e217ef6cdb4ad6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "4163fc4e012f96e2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "da2daf759d49edad",
+    "type": "split",
+    "children": [
+      {
+        "id": "7c990d33a311fb39",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5d766949e62a78c0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "projets/forfaits-quebec.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "1f456876b3119e4a",
+  "lastOpenFiles": [
+    "projets/forfaits-quebec.md"
+  ]
+}
