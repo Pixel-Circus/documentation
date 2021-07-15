@@ -1,42 +1,32 @@
 {
   "main": {
-    "id": "f3fc0aecdcf0a342",
+    "id": "fb31d4757090b6ab",
     "type": "split",
     "children": [
       {
-        "id": "20a2cbde195230d1",
+        "id": "1f456876b3119e4a",
         "type": "leaf",
-        "dimension": 56.85897435897436,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "projets/association-neurologues.md",
+            "file": "outils/lighthouse.md",
             "mode": "source"
           }
-        }
-      },
-      {
-        "id": "677da30be36e3327",
-        "type": "leaf",
-        "dimension": 43.14102564102564,
-        "state": {
-          "type": "graph",
-          "state": {}
         }
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "64a8f4a1d8aa7fa5",
+    "id": "d15bb7ae42c9442f",
     "type": "split",
     "children": [
       {
-        "id": "a90a3566f6c245a3",
+        "id": "9eec0b5737a828e3",
         "type": "tabs",
         "children": [
           {
-            "id": "80b189cde6976166",
+            "id": "72e217ef6cdb4ad6",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -44,12 +34,12 @@
             }
           },
           {
-            "id": "902b56bfab490064",
+            "id": "4163fc4e012f96e2",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "mamp",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,26 +55,26 @@
     "width": 300
   },
   "right": {
-    "id": "f44c707e2d98285b",
+    "id": "da2daf759d49edad",
     "type": "split",
     "children": [
       {
-        "id": "187d5c3ac587115f",
+        "id": "7c990d33a311fb39",
         "type": "tabs",
         "children": [
           {
-            "id": "463b00fc55a58b21",
+            "id": "5d766949e62a78c0",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "projets/association-neurologues.md",
+                "file": "outils/lighthouse.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": true,
+                "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
@@ -96,17 +86,11 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "20a2cbde195230d1",
+  "active": "1f456876b3119e4a",
   "lastOpenFiles": [
-    "projets/association-neurologues.md",
-    "projets/_projets.md",
-    "projets/Untitled.md",
-    "code/_code.md",
-    "code/typerocket-pagebuilder.md",
-    "code/librairies-js.md",
-    "code/typerocket.md",
-    "code/Untitled.md",
-    "code/gsap.md",
-    "code/react.md"
+    "outils/lighthouse.md",
+    "outils/bases-de-donnees.md",
+    "outils/Untitled.md",
+    "projets/forfaits-quebec.md"
   ]
 }
