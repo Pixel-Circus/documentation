@@ -14,6 +14,13 @@ Un commit ne doit pas comporter plusieurs types de changement. Par exemple, on n
 
 Avec de bons messages de commits, il est possible de lire le log de commits et de connaître rapidement l'historique des modifications. On peut ainsi retrouver le commit du popup de Noël de l'an dernier pour le remettre en place au prochain Noël. Il n'y a plus besoin de commenter du code de manière temporaire. On peut retrouver le commit où il a été enlevé en cherchant "popup" ou "Noël" dans les messages de commit.
 
+## Mise en ligne via Github
+Certains sites ont un principe ou le code en ligne est le code d'un repo Git. On ne peut pas updater manuellement le code en ligne, il sera corrigé par le système dans l'heure.
+
+Faire les modifications, les pousser sur Git, et ensuite faire la ligne `git publish preprod`pour faire que sa branche en cours soit assignée comme le code de la préproduction.
+
+Une fois tout vérifié, on peut faire `git publish prod` pour assigner ce commit comme étant le code utilisé en production.
+
 ## Versionnement des projets/releases
 
 TBD (**Majeur.Mineur.BugFix** ou Date YYYY.MM.DD?) (ici ou garder dans [versionnement](versionnement#releases-tags)?)
